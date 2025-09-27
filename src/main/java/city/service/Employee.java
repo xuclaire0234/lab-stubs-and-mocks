@@ -15,4 +15,9 @@ public class Employee {
         this.salary = salary;
         this.address = address;
     }
+
+    public String getCapitalizedName() {
+        return name.substring(0, 1).toUpperCase()+name.substring(1).toLowerCase();
+    }
+
 }
